@@ -260,7 +260,12 @@ Useful for cracking credential files. Just run it on the password file. (Must ha
 
 Can be grabbed form [here](https://www.openwall.com/john/).
 
-### Misc Tools
+### Misc Tools/Resources
+
+#### System Call Information
+Contains ID and information about various system calls for various ops.
+
+https://syscalls.w3challs.com/
 
 #### PHP Shell
 Single file php shell 
