@@ -355,6 +355,8 @@ Client:
 
 Files could also be uploaded to a file sharing site so long as the generated URL is communicated to the / the location is predetermined
 
+- transfer.sh is easy to use from command line using curl's --upload-file option
+
 #### Uploading to Server
 
 Files could be uploaded to a [staging server](#staging-servers) which downloads any files it recieves to a directory.
